@@ -12,9 +12,6 @@ html {
   padding-left: 60px;
 }
 
-
-
-
 @media screen and (max-width: 600px) {
   .view {
     padding-left: 60px;
@@ -291,6 +288,10 @@ html {
   color: #0d1777;
   font-size: 26px;
 
+}
+.bold {
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 
