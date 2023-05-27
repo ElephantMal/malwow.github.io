@@ -410,10 +410,13 @@ overflow-y:scroll;
     height: 90%;
 }
 .popupfooter {
-   position:static;
-    bottom: 0;
-    height: 10%;
-    background-color: orange;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: orange;
+   color: white;
+   text-align: center;
 }
 .footernav {
   padding-top: 20px;
