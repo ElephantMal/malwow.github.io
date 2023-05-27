@@ -290,21 +290,14 @@ html {
   margin-bottom: 225px;
 
 }
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-.typocon {
-    display: inline-block;
-}
+
 .whatIdo {
- overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: 
-    typing 1s forwards;
-  font-size: 1.6rem;
-  width: 0;
+  margin-bottom: 40px;
+  margin-top: 10rem;
+  text-align: center;
+  color: #0d1777;
+  font-size: 26px;
+
 
 }
 .bold {
