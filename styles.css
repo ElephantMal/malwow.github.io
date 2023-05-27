@@ -290,7 +290,10 @@ html {
   margin-bottom: 225px;
 
 }
-
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 .whatIdo {
   overflow: hidden;
   border-right: .15em solid orange;
@@ -298,13 +301,7 @@ html {
   white-space: nowrap;
   animation: 
     typing 1s forwards;
-  font-size: 1.6rem;
   width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
   margin-bottom: 40px;
   margin-top: 10rem;
   text-align: center;
