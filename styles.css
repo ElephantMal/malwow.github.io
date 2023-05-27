@@ -284,7 +284,49 @@ html {
   opacity: 1;
   right: 0;
 }
+.buttonfo {
+  background-color: #008A00;
+  border: none;
+  color: white;
+  bottom: 0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-top: 1px;
+  transition: all 0.5s;
+  font-size: 24px;
+  box-shadow: 0 9px #999;
+}
 
+.buttonfo span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  position: relative;
+  text-transform:uppercase;
+}
+
+.buttonfo span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  text-transform:uppercase;
+}
+
+.buttonfo:hover span {
+  padding-right: 25px;
+}
+
+.buttonfo:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .buttonhome {
   text-align: center;
   margin-bottom: 225px;
@@ -414,9 +456,10 @@ overflow-y:scroll;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: lightblue;
+   background-color: transparent;
    color: white;
    text-align: center;
+  max-height: 150px;
 }
 .footernav {
   padding-top: 20px;
