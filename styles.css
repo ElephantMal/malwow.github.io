@@ -355,7 +355,7 @@ overflow: hidden;
 
 
 
-.selfie {
+.selfie, .selfie2 {
   height: 100%;
   width: 100%;
   max-width: 200px;
@@ -363,7 +363,7 @@ overflow: hidden;
   transition:opacity 0.8s
 }
 
-.selfie:hover {
+.selfie:hover, .selfie2:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
@@ -413,7 +413,7 @@ overflow-y:scroll;
    position:static;
     bottom: 0;
     height: 10%;
-    background-color:yellow;
+    background-color: orange;
 }
 .footernav {
   padding-top: 20px;
