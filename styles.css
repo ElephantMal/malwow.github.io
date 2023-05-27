@@ -405,7 +405,15 @@ overflow: hidden;
   overflow: scroll;
   width: 100%;
 }
-
+.popupfooter {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
 .footernav {
   padding-top: 20px;
   margin-bottom: 1px;
