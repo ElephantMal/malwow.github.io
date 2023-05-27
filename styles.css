@@ -294,9 +294,14 @@ html {
   place-items: center;
 }
 .whatIdo {
+    margin-bottom: 40px;
+  margin-top: 10rem;
+  text-align: center;
+  color: #0d1777;
+  font-size: 26px;
 overflow: hidden;
   white-space: nowrap;
-  border-right: 2px solid;
+  border-right: 2px solid prange;
   width: 0;
   animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
 }
