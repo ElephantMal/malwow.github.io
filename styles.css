@@ -405,14 +405,15 @@ overflow: hidden;
   overflow: scroll;
   width: 100%;
 }
+.popupcontain {
+overflow-y:scroll;
+    height: 90%;
+}
 .popupfooter {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
+   position:static;
+    bottom: 0;
+    height: 10%;
+    background-color:yellow;
 }
 .footernav {
   padding-top: 20px;
