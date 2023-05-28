@@ -458,7 +458,7 @@ overflow-y:scroll;
    width: 50%;
   margin-left: 25%;
   border-radius: 3px;
-   background-color: #0D1977;
+   background-color: transparent;
    color: white;
    text-align: center;
   max-height: 400px;
