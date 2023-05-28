@@ -457,6 +457,8 @@ overflow-y:scroll;
    bottom: 0;
    width: 50%;
   margin-left: 50%;
+  border-radius: 3px;
+  text-align: center;
    background-color: #0D1977;
    color: white;
    text-align: center;
