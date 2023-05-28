@@ -459,7 +459,7 @@ overflow-y:scroll;
    background-color: transparent;
    color: white;
    text-align: center;
-  max-height: 450px;
+  max-height: 300px;
 }
 .footernav {
   padding-top: 20px;
