@@ -341,8 +341,8 @@ html {
   text-align: center;
   color: #0d1777;
   font-size: 26px;
-overflow: hidden;
-  white-space: nowrap;
+overflow: ;
+  white-space: ;
   border-right: 2px solid prange;
   width: 100%;
   animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
