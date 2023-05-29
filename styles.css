@@ -411,9 +411,10 @@ overflow: hidden;
   transform: scale(1.5); 
 }
 .footpopx {
-  top: 0;
-  right: 0;
+  margin-top: -20px;
+  margin-right: -20px;
   padding: 5px;
+  color: red;
 }
 .welcome {
   margin-left: 1rem;
