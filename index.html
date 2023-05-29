@@ -178,11 +178,12 @@
  	</div>
 </div>
 	<div class="popupfooter">
+		<span onclick="togglepop()">X</span>
 						<img src="img1.png" alt="pic-of-owner" class="selfie"><br>
 
 				<button class="buttonh"><span>
 
-<a href="https://calendly.com/consultjamalwows" target="_blank" class="ctacontact">Ask about our 30 day free-trial!
+<a href="mailto:jamal@jamalwows.com" target="_blank" class="ctacontact">Ask about our RISK-FREE trial!!
 						</a>
 
 			</span>	</button>
@@ -199,7 +200,16 @@ setTimeout(ldinsp, 0);
 })();
 </script>
 <!-- End Inspectlet Asynchronous Code -->
-	
+	<script>
+function togglepop() {
+  var x = document.getElementByClassName("popupfooter");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 	<script src="script.js"></script>
 	</body>
 
