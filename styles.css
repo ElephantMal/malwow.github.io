@@ -397,7 +397,7 @@ overflow: hidden;
 
 
 
-.selfie, .selfie2 {
+.selfie {
   height: 100%;
   width: 100%;
   max-width: 200px;
@@ -405,7 +405,7 @@ overflow: hidden;
   transition:opacity 0.8s
 }
 
-.selfie:hover {
+.selfie:hover, .selfie2 {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
