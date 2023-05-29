@@ -177,7 +177,7 @@
  		</div>
  	</div>
 </div>
-	<div class="popupfooter">
+	<div id="popupfooter">
 		<button class="footpopx" onclick="togglepop()">X</button>
 						<img src="img1.png" alt="pic-of-owner" class="selfie2"><br>
 
@@ -202,7 +202,7 @@ setTimeout(ldinsp, 0);
 <!-- End Inspectlet Asynchronous Code -->
 	<script>
 function togglepop() {
-  var x = document.getElementByClassName("popupfooter");
+  var x = document.getElementById("popupfooter");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
