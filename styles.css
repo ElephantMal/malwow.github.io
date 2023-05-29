@@ -405,13 +405,16 @@ overflow: hidden;
   transition:opacity 0.8s
 }
 
-.selfie:hover, .selfie2:hover {
+.selfie:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
 }
-
-
+.footpopx {
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
 .welcome {
   margin-left: 1rem;
   margin-top: 5rem;
