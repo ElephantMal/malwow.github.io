@@ -6,7 +6,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+.closebut {
+  top: 0;
+  right: 0;
+}
 .view {
   color: #0D1977;
   padding-left: 60px;
