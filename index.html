@@ -177,7 +177,9 @@
  		</div>
  	</div>
 </div>
-	<div class="popupfooter">
+	<div class="popupfooter" id="popupFooter">
+		  <a href="javascript:void(0)" class="closebut" onclick="closeNav()">X</a>
+
 						<img src="img1.png" alt="pic-of-owner" class="selfie2"><br>
 
 				<button class="buttonh"><span>
@@ -188,6 +190,11 @@
 			</span>	</button>
 		</div>
  <!-- Begin Inspectlet Asynchronous Code -->
+<script>
+	function closeNav() {
+  document.getElementById("popupFooter").style.width = "0";
+}
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script type="text/javascript">
 (function() {
