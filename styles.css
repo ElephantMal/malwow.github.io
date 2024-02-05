@@ -9,6 +9,8 @@ html {
 .closebut {
   top: -50px;
   right: -50px;
+margin-top: -50px;
+  margin-right: -50px
 }
 .view {
   color: #0D1977;
