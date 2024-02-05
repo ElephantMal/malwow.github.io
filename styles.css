@@ -7,10 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 .closebut {
-  top: -50px;
-  left: -50px;
-margin-top: -50px;
-  margin-left: -50px
+  top: -50%;
+  left: -50%;
+margin-top: -50%;
+  margin-left: -50%
 }
 .view {
   color: #0D1977;
