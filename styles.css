@@ -7,8 +7,8 @@ html {
   scroll-behavior: smooth;
 }
 .closebut {
-  top: 0;
-  right: 0;
+  top: -50;
+  right: -50;
 }
 .view {
   color: #0D1977;
